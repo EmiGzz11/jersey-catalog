@@ -479,7 +479,7 @@ export const JERSEYS_DATA = [
       collar: "Cuello tipo polo",
       fit: "Corte entallado"
     },
-    story: "El orgullo de Stamford Bridge se viste de azul una vez más. El jersey local del **Chelsea 2026/2027** refleja la identidad y tradición del conjunto londinense en una nueva temporada, combinando su característico azul con el espíritu competitivo de uno de los grandes clubes de Inglaterra.  ",
+    story: "El orgullo de Stamford Bridge se viste de azul una vez más. El jersey local del Chelsea 2026/2027 refleja la identidad y tradición del conjunto londinense en una nueva temporada, combinando su característico azul con el espíritu competitivo de uno de los grandes clubes de Inglaterra.  ",
     inventory: []
   },
   {
@@ -508,7 +508,7 @@ export const JERSEYS_DATA = [
       collar: "Cuello redondo",
       fit: "Corte entallado"
     },
-    story: "Dos estrellas que ya forman parte de la historia europea del club. El jersey del **Paris Saint-Germain 2026/2027** celebra una nueva etapa para el conjunto parisino, después de conquistar su segunda **Champions League**, con **Ousmane Dembélé y Vitinha** como protagonistas de una generación que llevó al PSG a la cima de Europa.",
+    story: "Dos estrellas que ya forman parte de la historia europea del club. El jersey del Paris Saint-Germain 2026/2027 celebra una nueva etapa para el conjunto parisino, después de conquistar su segunda Champions League, con Ousmane Dembélé y Vitinha como protagonistas de una generación que llevó al PSG a la cima de Europa.",
     inventory: []
   },
   {
