@@ -21,10 +21,10 @@ export function useJerseys() {
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [sortBy, setSortBy] = useState('featured'); // 'featured', 'season-desc', 'season-asc', 'name-asc'
   const [viewMode, setViewMode] = useState('grid'); // 'grid' | 'compact'
-  
+
   // Modal detail state
   const [activeJersey, setActiveJersey] = useState(null);
-  
+
   // Favorites drawer state
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
 
@@ -96,7 +96,7 @@ export function useJerseys() {
         const matchesBrand = cleanString(jersey.brand).includes(query);
         const matchesPlayer = jersey.player ? cleanString(jersey.player.name).includes(query) : false;
         const matchesTags = jersey.tags?.some(tag => cleanString(tag).includes(query));
-        
+
         if (!matchesName && !matchesTeam && !matchesCountry && !matchesSeason && !matchesBrand && !matchesPlayer && !matchesTags) {
           return false;
         }
@@ -154,11 +154,11 @@ export function useJerseys() {
   // Summary stats
   const stats = useMemo(() => {
     const total = JERSEYS_DATA.length;
-    const retro = JERSEYS_DATA.filter(j => j.era.includes('90s') || parseInt(j.season) < 2005).length;
+    const inStock = JERSEYS_DATA.filter(j => j.inventory && j.inventory.length > 0).length;
     const legends = JERSEYS_DATA.filter(j => j.player?.isLegend).length;
     const leaguesCount = new Set(JERSEYS_DATA.map(j => j.league)).size;
 
-    return { total, retro, legends, leaguesCount };
+    return { total, inStock, legends, leaguesCount };
   }, []);
 
   return {

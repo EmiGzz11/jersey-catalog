@@ -114,7 +114,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#ffffff",
     tags: ["26/27", "Local", "Louis Vuitton", "Edición Especial"],
-    featured: true,
+    featured: false,
     specs: {
       fabricTech: "Climacool+",
       version: "Edición Especial Louis Vuitton",
@@ -326,7 +326,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#ffffff",
     tags: ["26/27", "Local", "LaLiga"],
-    featured: false,
+    featured: true,
     specs: {
       fabricTech: "CLIMACOOL+",
       version: "Jugador",
@@ -442,7 +442,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#7e22ce",
     tags: ["26/27", "Local", "Premier League"],
-    featured: false,
+    featured: true,
     specs: {
       fabricTech: "Climacool+",
       version: "Jugador",
@@ -471,7 +471,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#2563eb",
     tags: ["26/27", "Local", "Premier League"],
-    featured: false,
+    featured: true,
     specs: {
       fabricTech: "AERO-FIT",
       version: "Jugador",
@@ -500,7 +500,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#1d4ed8",
     tags: ["26/27", "Local", "Ligue 1"],
-    featured: false,
+    featured: true,
     specs: {
       fabricTech: "Aero-fit",
       version: "Jugador",
@@ -558,7 +558,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#ffffff",
     tags: ["26/27", "Local", "Serie A"],
-    featured: false,
+    featured: true,
     specs: {
       fabricTech: "Climacool+",
       version: "Jugador",
@@ -645,7 +645,7 @@ export const JERSEYS_DATA = [
     },
     accentColor: "#dc2626",
     tags: ["26/27", "Local", "Bundesliga"],
-    featured: false,
+    featured: true,
     specs: {
       fabricTech: "Climacool+",
       version: "Jersey",

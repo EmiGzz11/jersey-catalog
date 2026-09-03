@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Trophy, History, Shield, Flame, Compass } from 'lucide-react';
+import { Sparkles, Trophy, History, Shield, Flame, Compass, Layers } from 'lucide-react';
 
 export default function HeroBanner({ stats, onQuickFilter }) {
   return (
@@ -42,10 +42,10 @@ export default function HeroBanner({ stats, onQuickFilter }) {
 
             <div className="glass-card p-4 rounded-2xl border border-slate-200 dark:border-slate-800/80 flex flex-col items-center justify-center text-center group hover:border-amber-500/40 transition-all">
               <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center mb-2 text-amber-400 group-hover:scale-110 transition-transform">
-                <History className="w-5 h-5" />
+                <Layers className="w-5 h-5" />
               </div>
-              <span className="font-display text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">{stats.retro}</span>
-              <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">Reliquias Retro</span>
+              <span className="font-display text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">{stats.inStock}</span>
+              <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">En Inventario</span>
             </div>
 
             <div className="glass-card p-4 rounded-2xl border border-slate-200 dark:border-slate-800/80 flex flex-col items-center justify-center text-center group hover:border-blue-500/40 transition-all">
