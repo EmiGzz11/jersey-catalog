@@ -167,10 +167,10 @@ export default function JerseyCard({
 
           <button
             onClick={() => onOpenModal(jersey)}
-            className="px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-slate-950 border border-emerald-500/30 text-xs font-bold transition-all duration-200 flex items-center gap-1.5 group-hover:shadow-md"
+            className="p-2 sm:px-3 sm:py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-slate-950 border border-emerald-500/30 text-xs font-bold transition-all duration-200 flex items-center justify-center gap-1.5 group-hover:shadow-md"
           >
             <Eye className="w-3.5 h-3.5" />
-            <span>Ver Ficha</span>
+            <span className="hidden sm:inline">Ver Ficha</span>
           </button>
         </div>
 

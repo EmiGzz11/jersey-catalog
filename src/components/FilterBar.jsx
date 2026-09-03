@@ -62,7 +62,7 @@ export default function FilterBar({
           </div>
 
           {/* Secondary Filters & Sorters */}
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none w-full md:w-auto">
 
             {/* Era Filter */}
             <select
@@ -146,8 +146,8 @@ export default function FilterBar({
                   key={league.id}
                   onClick={() => setSelectedLeague(league.id)}
                   className={`whitespace-nowrap px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all flex-shrink-0 ${isSelected
-                      ? 'bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/25 scale-[1.02]'
-                      : 'bg-slate-50 dark:bg-slate-900/80 hover:bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:border-slate-700'
+                    ? 'bg-emerald-500 text-slate-950 shadow-md shadow-emerald-500/25 scale-[1.02]'
+                    : 'bg-slate-50 dark:bg-slate-900/80 hover:bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:border-slate-700'
                     }`}
                 >
                   <span className="text-sm">{league.flag}</span>
